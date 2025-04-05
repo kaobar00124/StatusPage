@@ -4,17 +4,17 @@
     "url": "https://kaobar.godofsoul.com",
     "icon": "https://icons.duckduckgo.com/ip3/kaobar.godofsoul.com.ico",
     "slug": "",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 376,
-    "timeDay": 376,
-    "timeWeek": 376,
-    "timeMonth": 376,
-    "timeYear": 376,
+    "time": 344,
+    "timeDay": 344,
+    "timeWeek": 344,
+    "timeMonth": 344,
+    "timeYear": 344,
     "dailyMinutesDown": {}
   }
 ]
