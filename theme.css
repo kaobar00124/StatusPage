@@ -1,16 +1,16 @@
 :root {
     --body-background-color: #f0f0f0;
     --body-text-color: #616161;
-    --card-background-color: #f0f0f0;
-    --nav-background-color: #f0f0f0;
-    --nav-border-bottom-color: #f0f0f0;
-    --nav-current-border-bottom-color: #f0f0f0;
+    --card-background-color: #ffffff; /* 改為白色以增加對比 */
+    --nav-background-color: #ffffff; /* 使背景色與卡片顏色有所區分 */
+    --nav-border-bottom-color: #e0e0e0;
+    --nav-current-border-bottom-color: #59cc95;
     --card-border-color: #59cc95;
     --down-border-left-color: #ce5e5e;
     --down-background-color: #ce5e5e;
     --degraded-border-left-color: #ffbe5e;
     --up-border-left-color: #59cc95;
-    --tag-color: #f0f0f0;
+    --tag-color: #ffffff;
     --tag-up-background-color: #59cc95;
     --tag-down-background-color: #ce5e5e;
     --tag-degraded-background-color: #ffbe5e;
@@ -28,10 +28,10 @@
 .link,
 article.up {
     border-radius: 0.75rem;
-    border-right: 0px;
-    border-bottom: 0px;
-    border-top: 0px;
+    border: 1px solid var(--card-border-color); /* 添加邊框線條 */
+    background-color: var(--card-background-color);
     transition: background-color 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* 添加陰影讓卡片更加突出 */
 }
 
 .down-active {
@@ -39,7 +39,7 @@ article.up {
 }
 
 nav {
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #e0e0e0; /* 輕微的邊框顏色 */
 }
 
 .icon-link-container {
@@ -50,7 +50,7 @@ nav {
     padding: 0.5rem;
     border-radius: 0.75rem;
     background-color: #fff;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e0e0e0; /* 輕微邊框讓圖示容器更顯眼 */
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
