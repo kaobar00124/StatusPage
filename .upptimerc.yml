@@ -7,9 +7,8 @@ delay: 30000
 
 # 檢測內容
 sites:
-  - name: Main service platforms
+  - name: Main Service Platforms
     url: https://kaobar.godofsoul.com
-    slug: kaobarmain
 
 # 狀態頁面設置
 status-website:
