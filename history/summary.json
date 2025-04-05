@@ -1,22 +1,22 @@
 [
   {
-    "name": "主要服務平台",
+    "name": "主要服務平台 | Main service platforms",
     "url": "https://kaobar.godofsoul.com",
     "icon": "https://icons.duckduckgo.com/ip3/kaobar.godofsoul.com.ico",
     "slug": "kaobar-main",
     "status": "down",
-    "uptime": "99.81%",
-    "uptimeDay": "99.81%",
-    "uptimeWeek": "99.81%",
-    "uptimeMonth": "99.81%",
-    "uptimeYear": "99.81%",
+    "uptime": "93.02%",
+    "uptimeDay": "93.02%",
+    "uptimeWeek": "93.02%",
+    "uptimeMonth": "93.02%",
+    "uptimeYear": "93.02%",
     "time": 256,
     "timeDay": 256,
     "timeWeek": 256,
     "timeMonth": 256,
     "timeYear": 256,
     "dailyMinutesDown": {
-      "2025-04-05": 0
+      "2025-04-05": 1
     }
   }
 ]
