@@ -26,7 +26,7 @@ degraded: 降級運行
 ms: 毫秒
 loading: 載入中
 navGitHub: GitHub
-footer: 本頁面是 [開源的]($REPO)，由 [Upptime](https://upptime.js.org) 提供支持
+footer: "本頁面由 Novainit Studio 協助建置。使用 Upptime 系統"
 rateLimitExceededTitle: 超過速率限制
 rateLimitExceededIntro: 您已超過每小時請求的次數，請等待一段時間後再試。或者，您可以新增 GitHub 個人存取令牌繼續使用此網站。
 rateLimitExceededWhatDoesErrorMean: 這個錯誤意味著什麼？
