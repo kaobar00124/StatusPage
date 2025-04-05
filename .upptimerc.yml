@@ -3,23 +3,49 @@ owner: kaobar00124 # Your GitHub organization or username, where this repository
 repo: StatusPage # The name of this repository
 
 sites:
-  - name: PTDTW Site
-    url: https://ptdtw.fun
+  - name: 主要服務平台
+    url: https://kaobar.godofsoul.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  name: 會考霸｜服務狀態
   cname: status.kaobar.godofsoul.com
   # baseUrl: /StatusPage
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: kaobar00124
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  introTitle: "會考霸 服務狀態"
+  # introMessage: ""
+  logoUrl: https://cdn.kaobar.godofsoul.com/Logo.png
+  favicon: https://cdn.kaobar.godofsoul.com/Logo.png
+  customHeadHtml: <!-- HTML Meta Tags -->
+    <meta name="description" content="會考霸的服務狀態頁面">
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://kaobar.godofsoul.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="會考霸服務狀態">
+    <meta property="og:description" content="會考霸的服務狀態頁面">
+    <meta property="og:image" content="https://cdn.kaobar.godofsoul.com/Logo.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="kaobar.godofsoul.com">
+    <meta property="twitter:url" content="https://kaobar.godofsoul.com/">
+    <meta name="twitter:title" content="會考霸服務狀態">
+    <meta name="twitter:description" content="會考霸的服務狀態頁面">
+    <meta name="twitter:image" content="https://cdn.kaobar.godofsoul.com/Logo.png">
+
+    <!-- Apple Web App -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="會考霸服務狀態">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="author" content="會考霸服務狀態－築夢之地團隊">
+    <link rel="author" href="https://kaobar.godofsoul.com">
+  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+  # navbar:
+  #  - title: Status
+  #    href: /
+  #  - title: GitHub
+  #    href: https://github.com/$OWNER/$REPO
+
