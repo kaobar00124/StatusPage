@@ -1,11 +1,16 @@
-# Change these first
+# 基本設置
 owner: kaobar00124 # Your GitHub organization or username, where this repository lives
 repo: StatusPage # The name of this repository
 
+# 更新間隔時間
+delay: 30000
+
+# 檢測內容
 sites:
   - name: 主要服務平台
     url: https://kaobar.godofsoul.com
 
+# 狀態頁面設置
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
