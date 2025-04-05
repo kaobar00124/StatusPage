@@ -48,7 +48,7 @@ article:hover {
 
 article.down {
     border-left: 3px solid var(--down-border-left-color) !important; /* 增加左邊框寬度 */
-    border: 1px solid var(--down-border-color) !important; /* 添加邊框線條 */
+    border: 1px solid var(--down-border-color) ; /* 添加邊框線條 */
     color: var(--down-color-color);
         transition: 0.3s; /* 平滑過渡 */
 }
@@ -68,7 +68,7 @@ article.down-active {
 
 article.degraded {
     border-left: 3px solid var(--degraded-border-left-color) !important; /* 增加左邊框寬度 */
-    border: 1px solid var(--degraded-border-color) !important; /* 添加邊框線條 */
+    border: 1px solid var(--degraded-border-color) ; /* 添加邊框線條 */
     color: var(--degraded-color-color);
     transition: 0.3s; /* 平滑過渡 */
 }
@@ -81,7 +81,7 @@ article.degraded:hover {
 
 article.up {
     border-left: 3px solid var(--up-border-left-color) !important; /* 增加左邊框寬度 */
-    border: 1px solid var(--up-border-color) !important; /* 添加邊框線條 */
+    border: 1px solid var(--up-border-color) ; /* 添加邊框線條 */
     color: var(--up-color-color);
        transition: 0.3s; /* 平滑過渡 */
 }
