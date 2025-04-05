@@ -9,7 +9,7 @@ delay: 30000
 sites:
   - name: Main service platforms
     url: https://kaobar.godofsoul.com
-    slug: kaobar-main
+    slug: kaobarmain
 
 # 狀態頁面設置
 status-website:
