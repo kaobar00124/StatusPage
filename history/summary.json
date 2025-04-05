@@ -5,18 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/kaobar.godofsoul.com.ico",
     "slug": "kaobar-main",
     "status": "up",
-    "uptime": "79.63%",
-    "uptimeDay": "79.63%",
-    "uptimeWeek": "79.63%",
-    "uptimeMonth": "79.63%",
-    "uptimeYear": "79.63%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 263,
     "timeDay": 263,
     "timeWeek": 263,
     "timeMonth": 263,
     "timeYear": 263,
-    "dailyMinutesDown": {
-      "2025-04-05": 4
-    }
+    "dailyMinutesDown": {}
   }
 ]
