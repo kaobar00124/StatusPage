@@ -19,6 +19,7 @@ status-website:
   # baseUrl: /StatusPage
   introTitle: "會考霸 服務狀態"
   # introMessage: ""
+  themeUrl: https://status.kaobar.godofsoul.com/theme.css
   logoUrl: https://cdn.kaobar.godofsoul.com/Logo.png
   favicon: https://cdn.kaobar.godofsoul.com/Logo.png
   customHeadHtml: <!-- HTML Meta Tags -->
