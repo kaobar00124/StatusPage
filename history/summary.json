@@ -1,20 +1,20 @@
 [
   {
-    "name": "PTDTW Site",
-    "url": "https://ptdtw.fun",
-    "icon": "https://icons.duckduckgo.com/ip3/ptdtw.fun.ico",
-    "slug": "ptdtw-site",
-    "status": "up",
+    "name": "主要服務平台",
+    "url": "https://kaobar.godofsoul.com",
+    "icon": "https://icons.duckduckgo.com/ip3/kaobar.godofsoul.com.ico",
+    "slug": "",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 255,
-    "timeDay": 255,
-    "timeWeek": 255,
-    "timeMonth": 255,
-    "timeYear": 255,
+    "time": 213,
+    "timeDay": 213,
+    "timeWeek": 213,
+    "timeMonth": 213,
+    "timeYear": 213,
     "dailyMinutesDown": {}
   }
 ]
