@@ -36,7 +36,7 @@ img {
 article {
     border-radius: 0.75rem;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* 添加陰影讓卡片更加突出 */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 為卡片添加動畫效果 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; /* 改善動畫效果 */
 }
 
 .link:hover,
@@ -46,15 +46,16 @@ article:hover {
 }
 
 article.down {
-    border-left-color: var(--down-border-left-color) !important;
+    border-left: 3px solid var(--down-border-left-color) !important; /* 增加左邊框寬度 */
     border: 1px solid var(--down-border-color) !important; /* 添加邊框線條 */
     color: var(--down-color-color);
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* 添加過渡效果 */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* 平滑過渡 */
 }
 
 article.down:hover {
     background: var(--down-background-color);
     border-color: var(--down-background-color);
+    color: #fff;
 }
 
 article.down-active {
@@ -63,10 +64,10 @@ article.down-active {
 }
 
 article.degraded {
-    border-left-color: var(--degraded-border-left-color) !important;
+    border-left: 3px solid var(--degraded-border-left-color) !important; /* 增加左邊框寬度 */
     border: 1px solid var(--degraded-border-color) !important; /* 添加邊框線條 */
     color: var(--degraded-color-color);
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* 添加過渡效果 */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* 平滑過渡 */
 }
 
 article.degraded:hover {
@@ -75,10 +76,10 @@ article.degraded:hover {
 }
 
 article.up {
-    border-left-color: var(--up-border-left-color) !important;
+    border-left: 3px solid var(--up-border-left-color) !important; /* 增加左邊框寬度 */
     border: 1px solid var(--up-border-color) !important; /* 添加邊框線條 */
     color: var(--up-color-color);
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* 添加過渡效果 */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* 平滑過渡 */
 }
 
 article.up:hover {
