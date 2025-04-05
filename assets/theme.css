@@ -36,55 +36,60 @@ img {
 article {
     border-radius: 0.75rem;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* 添加陰影讓卡片更加突出 */
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; /* 改善動畫效果 */
+        transition: 0.3s; /* 平滑過渡 */
 }
 
 .link:hover,
 article:hover {
     transform: scale(1.05); /* 當滑鼠懸停時，輕微放大卡片 */
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* 增加陰影效果 */
+    transition: 0.3s; /* 平滑過渡 */
 }
 
 article.down {
     border-left: 3px solid var(--down-border-left-color) !important; /* 增加左邊框寬度 */
     border: 1px solid var(--down-border-color) !important; /* 添加邊框線條 */
     color: var(--down-color-color);
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* 平滑過渡 */
+        transition: 0.3s; /* 平滑過渡 */
 }
 
 article.down:hover {
     background: var(--down-background-color);
     border-color: var(--down-background-color);
     color: #fff;
+    transition: 0.3s; /* 平滑過渡 */
 }
 
 article.down-active {
     background: var(--down-background-color);
     border-color: var(--down-background-color);
+    transition: 0.3s; /* 平滑過渡 */
 }
 
 article.degraded {
     border-left: 3px solid var(--degraded-border-left-color) !important; /* 增加左邊框寬度 */
     border: 1px solid var(--degraded-border-color) !important; /* 添加邊框線條 */
     color: var(--degraded-color-color);
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* 平滑過渡 */
+    transition: 0.3s; /* 平滑過渡 */
 }
 
 article.degraded:hover {
     background: var(--degraded-background-color);
     border-color: var(--degraded-background-color);
+    transition: 0.3s; /* 平滑過渡 */
 }
 
 article.up {
     border-left: 3px solid var(--up-border-left-color) !important; /* 增加左邊框寬度 */
     border: 1px solid var(--up-border-color) !important; /* 添加邊框線條 */
     color: var(--up-color-color);
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* 平滑過渡 */
+       transition: 0.3s; /* 平滑過渡 */
 }
 
 article.up:hover {
     background: var(--up-background-color);
     border-color: var(--up-background-color);
+    transition: 0.3s; /* 平滑過渡 */
 }
 
 nav {
