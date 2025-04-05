@@ -55,6 +55,7 @@ article.down {
 article.down:hover {
     background: var(--down-background-color);
     border-color: var(--down-background-color);
+    color: #fff;
 }
 
 article.down-active {
