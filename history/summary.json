@@ -4,19 +4,19 @@
     "url": "https://kaobar.godofsoul.com",
     "icon": "https://icons.duckduckgo.com/ip3/kaobar.godofsoul.com.ico",
     "slug": "main-service-platforms",
-    "status": "down",
-    "uptime": "82.65%",
-    "uptimeDay": "82.65%",
-    "uptimeWeek": "82.65%",
-    "uptimeMonth": "82.65%",
-    "uptimeYear": "82.65%",
-    "time": 292,
-    "timeDay": 292,
-    "timeWeek": 292,
-    "timeMonth": 292,
-    "timeYear": 292,
+    "status": "up",
+    "uptime": "73.09%",
+    "uptimeDay": "73.09%",
+    "uptimeWeek": "73.09%",
+    "uptimeMonth": "73.09%",
+    "uptimeYear": "73.09%",
+    "time": 289,
+    "timeDay": 289,
+    "timeWeek": 289,
+    "timeMonth": 289,
+    "timeYear": 289,
     "dailyMinutesDown": {
-      "2025-04-05": 42
+      "2025-04-05": 74
     }
   }
 ]
