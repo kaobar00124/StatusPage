@@ -1,0 +1,85 @@
+:root {
+    --body-background-color: #f0f0f0;
+    --body-text-color: #616161;
+    --card-background-color: #f0f0f0;
+    --nav-background-color: #f0f0f0;
+    --nav-border-bottom-color: #f0f0f0;
+    --nav-current-border-bottom-color: #f0f0f0;
+    --card-border-color: #59cc95;
+    --down-border-left-color: #ce5e5e;
+    --down-background-color: #ce5e5e;
+    --degraded-border-left-color: #ffbe5e;
+    --up-border-left-color: #59cc95;
+    --tag-color: #f0f0f0;
+    --tag-up-background-color: #59cc95;
+    --tag-down-background-color: #ce5e5e;
+    --tag-degraded-background-color: #ffbe5e;
+    --change-background-color: #ffbe5e;
+    --error-button-border-color: #616161;
+    --error-button-background-color: #f0f0f0;
+    --error-button-color: #616161;
+    --submit-button-border-color: #616161;
+    --submit-button-background-color: #f0f0f0;
+    --submit-button-color: #616161;
+    --graph-opacity: 1;
+    --graph-filter: none;
+}
+
+.link,
+article.up {
+    border-radius: 0.75rem;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.down-active {
+    color: #f0f0f0 !important;
+}
+
+nav {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.icon-link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--body-text-color);
+    text-decoration: none;
+    gap: 0.25rem;
+}
+
+@media screen and (max-width: 450px) {
+    .icon-link > strong {
+        display: none;
+    }
+}
+
+.icon-divider {
+    width: 1px;
+    height: 1.5rem;
+    background-color: var(--body-text-color);
+}
+
+.icon-footnote {
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
