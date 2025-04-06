@@ -1,7 +1,7 @@
 url: https://kaobar.godofsoul.com
-status: up
-code: 200
-responseTime: 480
-lastUpdated: 2025-04-05T23:16:56.670Z
+status: down
+code: 429
+responseTime: 244
+lastUpdated: 2025-04-06T02:22:45.906Z
 startTime: 2025-04-05T14:53:16.335Z
 generator: Upptime <https://github.com/upptime/upptime>
